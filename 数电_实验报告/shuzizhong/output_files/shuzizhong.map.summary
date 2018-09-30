@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Fri Jul 06 20:41:22 2018
+Quartus Prime Version : 18.0.0 Build 614 04/24/2018 SJ Lite Edition
+Revision Name : shuzizhong
+Top-level Entity Name : szz
+Family : Cyclone IV E
+Total logic elements : 137
+    Total combinational functions : 136
+    Dedicated logic registers : 60
+Total registers : 60
+Total pins : 18
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

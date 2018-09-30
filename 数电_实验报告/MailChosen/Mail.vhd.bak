@@ -1,0 +1,22 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;
+entity clk_source is
+		port(clk_50m:in std_logic;
+				clk:out std_logic);
+end entity;
+architecture a of clk_source is
+signal clk_temp:std_logic;
+begin
+	clk<=clk_temp;
+	process(clk_50m,clk_temp)
+	variable counter:integer reange 0 to 25000000;
+	begin
+	if(counter=25000000)then
+		counter:=0;
+		clk_temp<=not clk_temp;
+		elsif(clk_50m'event and clk_50m='1')then
+			counter:=counter+1;
+		end if;
+	end process;
+end a;

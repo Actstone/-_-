@@ -1,0 +1,22 @@
+|scan_led
+clk => cnt8[0].CLK
+clk => cnt8[1].CLK
+clk => cnt8[2].CLK
+seg[0] << <GND>
+seg[1] << Mux18.DB_MAX_OUTPUT_PORT_TYPE
+seg[2] << Mux17.DB_MAX_OUTPUT_PORT_TYPE
+seg[3] << Mux16.DB_MAX_OUTPUT_PORT_TYPE
+seg[4] << Mux15.DB_MAX_OUTPUT_PORT_TYPE
+seg[5] << Mux14.DB_MAX_OUTPUT_PORT_TYPE
+seg[6] << Mux13.DB_MAX_OUTPUT_PORT_TYPE
+seg[7] << Mux12.DB_MAX_OUTPUT_PORT_TYPE
+scan[0] << Mux7.DB_MAX_OUTPUT_PORT_TYPE
+scan[1] << Mux6.DB_MAX_OUTPUT_PORT_TYPE
+scan[2] << Mux5.DB_MAX_OUTPUT_PORT_TYPE
+scan[3] << Mux4.DB_MAX_OUTPUT_PORT_TYPE
+scan[4] << Mux3.DB_MAX_OUTPUT_PORT_TYPE
+scan[5] << Mux2.DB_MAX_OUTPUT_PORT_TYPE
+scan[6] << Mux1.DB_MAX_OUTPUT_PORT_TYPE
+scan[7] << Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+

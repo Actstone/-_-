@@ -1,0 +1,37 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "highi",
+					"strict" : false
+				},
+				{
+					"name" : "spkout",
+					"strict" : false
+				},
+				{
+					"name" : "code[2]",
+					"strict" : false
+				},
+				{
+					"name" : "code[1]",
+					"strict" : false
+				},
+				{
+					"name" : "code[0]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "clk25MHz",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

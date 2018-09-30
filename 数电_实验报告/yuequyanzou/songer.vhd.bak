@@ -1,0 +1,34 @@
+library ieee;
+use ieee.std_logic_1164.all;--------------------------------硬件演奏电路顶层设计
+entity songer is
+	port(clk12mhz:in std_logic;------------------------------音调频率信号
+			clk8hz:in std_logic;-------------------------------节拍频率信号
+			code1:out std_logic_vector(3 downto 0);------------简谱码显示输出
+			high1:out std_logic;-------------------------------高八度指示
+			spkout:out std_logic);-----------------------------声音输出
+end;
+
+architecture one of songer is
+	component notetabs
+		port(clk:in std_logic;
+				toneindex:out std_logic_vector(3 downto 0));
+	end component;
+	component tonetaba;
+		port(index:in std_logic_vector(3 downto 0);
+				code:out std_logic_vector(3 downto 0);
+				high:out std_logic;
+				tone:out std_logic_vector(10 downto 0));
+	end component;
+	component speaker
+		port(clk:in std_logic;
+				tone:out std_logic_vector(10 downto 0);
+				spks:out std_logic);
+	end component;
+	signal tone:std_logic_vector(10 downto 0);
+	signal toneindex:std_logic_vector(3 downto 0);
+begin
+u1:notetabs port map(clk=>clk8hz, toneindex=>toneindex);
+u2:tonetabs port map(index=>toneindex, tone=>tone, code=>code1, high=>high1);
+u3:speakera port map(clk=>clk12mhz, tone=>tone, spks=>spkout);
+
+

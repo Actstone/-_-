@@ -1,0 +1,147 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d//Mac/Home/Desktop/WIN10/8byte-shumasaomiao/simulation/qsim
+Ehard_block
+Z1 w1531445121
+Z2 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z3 DPx10 cycloneive 20 cycloneive_atom_pack 0 22 U]E`hi0:`oKa5cWiFZ>hl3
+Z4 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z7 DPx10 cycloneive 21 cycloneive_components 0 22 7:=`d=[QUY_aUcbj<lC000
+R0
+Z8 8shumaguan.vho
+Z9 Fshumaguan.vho
+l0
+L34
+VOgIg9T_BR7joedFDVM>H13
+!s100 A`ID_i56<Ua56=ZD=[EG=2
+Z10 OV;C;10.5b;63
+32
+Z11 !s110 1531445122
+!i10b 1
+Z12 !s108 1531445122.000000
+Z13 !s90 -work|work|shumaguan.vho|
+Z14 !s107 shumaguan.vho|
+!i113 1
+Z15 o-work work
+Z16 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 10 hard_block 0 22 OgIg9T_BR7joedFDVM>H13
+l64
+L50
+V`^CmQg<48W[ez[JL_5@Yn2
+!s100 2S?JL;LJ@<3:BHXTNcXS]3
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Escan_led
+R1
+R3
+R7
+R2
+Z17 DPx6 altera 11 dffeas_pack 0 22 Dg`GWTC`^Q8GNSMPeo22;3
+R4
+R5
+R6
+Z18 DPx6 altera 28 altera_primitives_components 0 22 _LNC5n6B?5VN@W;M4Dg@k1
+R0
+R8
+R9
+l0
+L79
+VcY`a3m6aV:L@59UPRQQi:1
+!s100 OfgU1S48;0T;WR_EGTPM^0
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Astructure
+R3
+R7
+R2
+R17
+R4
+R5
+R6
+R18
+DEx4 work 8 scan_led 0 22 cY`a3m6aV:L@59UPRQQi:1
+l172
+L107
+VcMb<a^lRMgFYi1AU`VZCz3
+!s100 6m^hZLEbdL@BM7R[k`S6X2
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Escan_led_vhd_vec_tst
+Z19 w1531445119
+R5
+R6
+R0
+Z20 8Waveform1.vwf.vht
+Z21 FWaveform1.vwf.vht
+l0
+L31
+VRQOez2T]V1zaTdC[0L]W83
+!s100 XihTooe8MKORcA;Fl85@Z1
+R10
+32
+Z22 !s110 1531445123
+!i10b 1
+Z23 !s108 1531445123.000000
+Z24 !s90 -work|work|Waveform1.vwf.vht|
+Z25 !s107 Waveform1.vwf.vht|
+!i113 1
+R15
+R16
+Ascan_led_arch
+R5
+R6
+Z26 DEx4 work 20 scan_led_vhd_vec_tst 0 22 RQOez2T]V1zaTdC[0L]W83
+l46
+L33
+Z27 VOWk1TF@8EZWf5=cTzX@l20
+Z28 !s100 6T6U;7?Gc69kY?o7HfZj?1
+R10
+32
+R22
+!i10b 1
+R23
+R24
+R25
+!i113 1
+R15
+R16

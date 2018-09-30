@@ -1,0 +1,221 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'clk_in'
+Slack : -3.421
+TNS   : -42.211
+
+Type  : Slow 1200mV 85C Model Setup 'counter:u3|seccarry'
+Slack : -3.135
+TNS   : -16.327
+
+Type  : Slow 1200mV 85C Model Setup 'freq_div:u1|temp_counter_1Hz'
+Slack : -3.124
+TNS   : -17.083
+
+Type  : Slow 1200mV 85C Model Setup 'scanner:u2|led_sel[0]'
+Slack : -2.673
+TNS   : -9.437
+
+Type  : Slow 1200mV 85C Model Setup 'freq_div:u1|temp_counter_1KHz'
+Slack : -2.597
+TNS   : -23.191
+
+Type  : Slow 1200mV 85C Model Setup 'counter:u3|mincarry'
+Slack : -1.837
+TNS   : -10.660
+
+Type  : Slow 1200mV 85C Model Hold 'scanner:u2|led_sel[0]'
+Slack : 0.426
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'freq_div:u1|temp_counter_1Hz'
+Slack : 0.453
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'freq_div:u1|temp_counter_1KHz'
+Slack : 0.453
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'counter:u3|mincarry'
+Slack : 0.454
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'counter:u3|seccarry'
+Slack : 0.454
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clk_in'
+Slack : 0.762
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk_in'
+Slack : -3.000
+TNS   : -26.792
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'freq_div:u1|temp_counter_1KHz'
+Slack : -1.487
+TNS   : -29.740
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'counter:u3|mincarry'
+Slack : -1.487
+TNS   : -11.896
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'counter:u3|seccarry'
+Slack : -1.487
+TNS   : -11.896
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'freq_div:u1|temp_counter_1Hz'
+Slack : -1.487
+TNS   : -11.896
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'scanner:u2|led_sel[0]'
+Slack : 0.251
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'clk_in'
+Slack : -3.175
+TNS   : -38.125
+
+Type  : Slow 1200mV 0C Model Setup 'counter:u3|seccarry'
+Slack : -2.897
+TNS   : -14.838
+
+Type  : Slow 1200mV 0C Model Setup 'freq_div:u1|temp_counter_1Hz'
+Slack : -2.862
+TNS   : -15.381
+
+Type  : Slow 1200mV 0C Model Setup 'scanner:u2|led_sel[0]'
+Slack : -2.772
+TNS   : -9.526
+
+Type  : Slow 1200mV 0C Model Setup 'freq_div:u1|temp_counter_1KHz'
+Slack : -2.376
+TNS   : -19.075
+
+Type  : Slow 1200mV 0C Model Setup 'counter:u3|mincarry'
+Slack : -1.632
+TNS   : -9.346
+
+Type  : Slow 1200mV 0C Model Hold 'counter:u3|seccarry'
+Slack : 0.382
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'freq_div:u1|temp_counter_1KHz'
+Slack : 0.401
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'freq_div:u1|temp_counter_1Hz'
+Slack : 0.402
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'counter:u3|mincarry'
+Slack : 0.404
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'scanner:u2|led_sel[0]'
+Slack : 0.588
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clk_in'
+Slack : 0.706
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk_in'
+Slack : -3.000
+TNS   : -26.792
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'freq_div:u1|temp_counter_1KHz'
+Slack : -1.487
+TNS   : -29.740
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'counter:u3|mincarry'
+Slack : -1.487
+TNS   : -11.896
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'counter:u3|seccarry'
+Slack : -1.487
+TNS   : -11.896
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'freq_div:u1|temp_counter_1Hz'
+Slack : -1.487
+TNS   : -11.896
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'scanner:u2|led_sel[0]'
+Slack : 0.082
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'clk_in'
+Slack : -0.917
+TNS   : -8.042
+
+Type  : Fast 1200mV 0C Model Setup 'counter:u3|seccarry'
+Slack : -0.784
+TNS   : -2.413
+
+Type  : Fast 1200mV 0C Model Setup 'freq_div:u1|temp_counter_1Hz'
+Slack : -0.751
+TNS   : -2.553
+
+Type  : Fast 1200mV 0C Model Setup 'scanner:u2|led_sel[0]'
+Slack : -0.704
+TNS   : -2.185
+
+Type  : Fast 1200mV 0C Model Setup 'freq_div:u1|temp_counter_1KHz'
+Slack : -0.579
+TNS   : -1.875
+
+Type  : Fast 1200mV 0C Model Setup 'counter:u3|mincarry'
+Slack : -0.190
+TNS   : -0.404
+
+Type  : Fast 1200mV 0C Model Hold 'freq_div:u1|temp_counter_1Hz'
+Slack : 0.145
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'counter:u3|mincarry'
+Slack : 0.184
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'counter:u3|seccarry'
+Slack : 0.185
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'freq_div:u1|temp_counter_1KHz'
+Slack : 0.186
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'scanner:u2|led_sel[0]'
+Slack : 0.190
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clk_in'
+Slack : 0.305
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk_in'
+Slack : -3.000
+TNS   : -20.041
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'freq_div:u1|temp_counter_1KHz'
+Slack : -1.000
+TNS   : -20.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'counter:u3|mincarry'
+Slack : -1.000
+TNS   : -8.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'counter:u3|seccarry'
+Slack : -1.000
+TNS   : -8.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'freq_div:u1|temp_counter_1Hz'
+Slack : -1.000
+TNS   : -8.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'scanner:u2|led_sel[0]'
+Slack : 0.250
+TNS   : 0.000
+
+------------------------------------------------------------

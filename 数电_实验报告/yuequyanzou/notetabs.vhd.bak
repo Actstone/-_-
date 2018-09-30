@@ -1,0 +1,22 @@
+library ieee;-----------------------------------------------------节拍和音符数据发生器模块
+use ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;
+entity notetabs is
+	port(clk:in std_logic;
+			toneindex:out std_logic_vector(3 downto 0));
+end;
+architecture one of notetabs is
+component music---------------------------------------------------音符数据ROM
+	port(address: in std_logic_vector(7 downto 0);
+			inclock: in std_logic;
+			q:out std_logic_vector(3 downto 0));
+end component;
+	signal counter:std_logic_vector(7 downto 0);
+begin
+	cnt8:process(clk,counter)
+	begin
+		if counter=138 then counter<="00000000";
+		elsif (clk'event and clk='1')then counter<=counter+1;end if;
+	end process;
+u1:music port map(address=>counter, q=>toneindex, inclock=>clk);
+end;

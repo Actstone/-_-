@@ -1,0 +1,13 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vcom -93 -work work {//Mac/Home/Desktop/WIN10/yuequyanzou/music.vhd}
+vcom -93 -work work {//Mac/Home/Desktop/WIN10/yuequyanzou/songer.vhd}
+vcom -93 -work work {//Mac/Home/Desktop/WIN10/yuequyanzou/speakera.vhd}
+vcom -93 -work work {//Mac/Home/Desktop/WIN10/yuequyanzou/tonetaba.vhd}
+vcom -93 -work work {//Mac/Home/Desktop/WIN10/yuequyanzou/notetabs.vhd}
+

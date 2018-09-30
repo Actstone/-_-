@@ -1,0 +1,147 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d//Mac/Home/Desktop/WIN10/shuzizhong/simulation/qsim
+Ehard_block
+Z1 w1530876359
+Z2 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z3 DPx10 cycloneive 20 cycloneive_atom_pack 0 22 U]E`hi0:`oKa5cWiFZ>hl3
+Z4 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z7 DPx10 cycloneive 21 cycloneive_components 0 22 7:=`d=[QUY_aUcbj<lC000
+R0
+Z8 8shuzizhong.vho
+Z9 Fshuzizhong.vho
+l0
+L34
+VOgIg9T_BR7joedFDVM>H13
+!s100 A`ID_i56<Ua56=ZD=[EG=2
+Z10 OV;C;10.5b;63
+32
+Z11 !s110 1530876361
+!i10b 1
+Z12 !s108 1530876361.000000
+Z13 !s90 -work|work|shuzizhong.vho|
+Z14 !s107 shuzizhong.vho|
+!i113 1
+Z15 o-work work
+Z16 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 10 hard_block 0 22 OgIg9T_BR7joedFDVM>H13
+l64
+L50
+V`^CmQg<48W[ez[JL_5@Yn2
+!s100 2S?JL;LJ@<3:BHXTNcXS]3
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Eszz
+Z17 w1530951241
+R3
+R7
+R2
+Z18 DPx6 altera 11 dffeas_pack 0 22 Dg`GWTC`^Q8GNSMPeo22;3
+R4
+R5
+R6
+Z19 DPx6 altera 28 altera_primitives_components 0 22 _LNC5n6B?5VN@W;M4Dg@k1
+R0
+R8
+R9
+l0
+L36
+VYVOP9ACo;@Oec;FiFo`fR3
+!s100 R[e_??;_LNOL;Zz^I[[Nb3
+R10
+32
+Z20 !s110 1530951242
+!i10b 1
+Z21 !s108 1530951241.000000
+R13
+R14
+!i113 1
+R15
+R16
+Astructure
+R3
+R7
+R2
+R18
+R4
+R5
+R6
+R19
+DEx4 work 3 szz 0 22 YVOP9ACo;@Oec;FiFo`fR3
+l298
+L68
+VmU4R:FVGI>:BjTXB4h<M:0
+!s100 T1hGzP^kQAW406zFXI_A32
+R10
+32
+R20
+!i10b 1
+R21
+R13
+R14
+!i113 1
+R15
+R16
+Eszz_vhd_vec_tst
+Z22 w1530951239
+R5
+R6
+R0
+Z23 8Waveform1.vwf.vht
+Z24 FWaveform1.vwf.vht
+l0
+L31
+Vo^jQ1TAEQdm]`9zAJ=AKB0
+!s100 Vo1:eElA3O]i9U@`2kj<H1
+R10
+32
+R20
+!i10b 1
+Z25 !s108 1530951242.000000
+Z26 !s90 -work|work|Waveform1.vwf.vht|
+Z27 !s107 Waveform1.vwf.vht|
+!i113 1
+R15
+R16
+Aszz_arch
+R5
+R6
+Z28 DEx4 work 15 szz_vhd_vec_tst 0 22 o^jQ1TAEQdm]`9zAJ=AKB0
+l52
+L33
+V=>F=fDk9dV0KZ?HV2k5Q[3
+!s100 ob13JDQUzJTPkeeTo7gY11
+R10
+32
+R20
+!i10b 1
+R25
+R26
+R27
+!i113 1
+R15
+R16
